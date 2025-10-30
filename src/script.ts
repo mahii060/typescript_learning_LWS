@@ -5,5 +5,25 @@ let fruits: string[] = ['apple', 'mango', 'orange',]
 
 let marks: number[] = [4, 5, 6, 7,]
 let pair = { name: 'Mahi', marks: 50 }
-console.log(marks);
-console.log(fruits);
+
+
+// Object
+let person = {
+    name: 'Mahi',
+    age: 25,
+    marriageStatus: false,
+    home: '',
+
+}
+
+// person.marriageStatus = true;
+// person.country = 'Bangladesh'
+person.home = 'Magura'
+// console.log(person);
+
+// Explicit & Union type of TS
+
+// explicit type
+let herAge: number;
+herAge = 22;
+console.log(herAge);
